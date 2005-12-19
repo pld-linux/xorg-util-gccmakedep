@@ -12,7 +12,7 @@ BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
 BuildRequires:	cpp
 BuildRequires:	xorg-util-util-macros >= 0.99.2
-Requires:	cpp
+Requires:	gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
