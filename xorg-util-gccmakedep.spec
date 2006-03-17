@@ -2,7 +2,7 @@ Summary:	gccmakedep utility
 Summary(pl):	Narzêdzie gccmakedep
 Name:		xorg-util-gccmakedep
 Version:	1.0.1
-Release:	0.1
+Release:	1
 License:	MIT
 Group:		X11/Development/Tools
 Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/util/gccmakedep-X11R7.0-%{version}.tar.bz2
