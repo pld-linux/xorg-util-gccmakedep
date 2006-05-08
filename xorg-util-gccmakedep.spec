@@ -5,7 +5,7 @@ Version:	1.0.1
 Release:	1
 License:	MIT
 Group:		X11/Development/Tools
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/util/gccmakedep-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/util/gccmakedep-%{version}.tar.bz2
 # Source0-md5:	328eea864d27b2d3a88ceb2fa66eca6d
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
