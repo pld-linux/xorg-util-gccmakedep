@@ -22,7 +22,7 @@ gccmakedep utility.
 Narzêdzie gccmakedep.
 
 %prep
-%setup -q -n gccmakedep-X11R7.0-%{version}
+%setup -q -n gccmakedep-%{version}
 
 %build
 %{__aclocal}
