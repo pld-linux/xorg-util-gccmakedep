@@ -1,5 +1,5 @@
 Summary:	gccmakedep utility - create dependencies in makefiles using gcc
-Summary(pl.UTF-8):   Narzędzie gccmakedep - tworzenie zależności w makefile'ach przy użyciu gcc
+Summary(pl.UTF-8):	Narzędzie gccmakedep - tworzenie zależności w makefile'ach przy użyciu gcc
 Name:		xorg-util-gccmakedep
 Version:	1.0.2
 Release:	1
