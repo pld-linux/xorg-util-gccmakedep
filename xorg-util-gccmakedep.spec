@@ -1,5 +1,5 @@
 Summary:	gccmakedep utility - create dependencies in makefiles using gcc
-Summary(pl):	Narzêdzie gccmakedep - tworzenie zale¿no¶ci w makefile'ach przy u¿yciu gcc
+Summary(pl.UTF-8):   NarzÄ™dzie gccmakedep - tworzenie zaleÅ¼noÅ›ci w makefile'ach przy uÅ¼yciu gcc
 Name:		xorg-util-gccmakedep
 Version:	1.0.2
 Release:	1
@@ -20,11 +20,11 @@ The gccmakedep program calls 'gcc -M' to output makefile rules
 describing the dependencies of each sourcefile, so that make knows
 which object files must be recompiled when a dependency has changed.
 
-%description -l pl
-Program gccmakedep wywo³uje 'gcc -M', aby uzyskaæ regu³y do pliku
-makefile opisuj±ce zale¿no¶ci wszystkich plików ¼ród³owych, dziêki
-którym program make wie, które pliki wynikowe nale¿y przekompilowaæ w
-przypadku zmiany zale¿nego pliku ¼ród³owego.
+%description -l pl.UTF-8
+Program gccmakedep wywoÅ‚uje 'gcc -M', aby uzyskaÄ‡ reguÅ‚y do pliku
+makefile opisujÄ…ce zaleÅ¼noÅ›ci wszystkich plikÃ³w ÅºrÃ³dÅ‚owych, dziÄ™ki
+ktÃ³rym program make wie, ktÃ³re pliki wynikowe naleÅ¼y przekompilowaÄ‡ w
+przypadku zmiany zaleÅ¼nego pliku ÅºrÃ³dÅ‚owego.
 
 %prep
 %setup -q -n gccmakedep-%{version}
