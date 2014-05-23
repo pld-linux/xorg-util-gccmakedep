@@ -1,17 +1,16 @@
 Summary:	gccmakedep utility - create dependencies in makefiles using gcc
 Summary(pl.UTF-8):	Narzędzie gccmakedep - tworzenie zależności w makefile'ach przy użyciu gcc
 Name:		xorg-util-gccmakedep
-Version:	1.0.2
-Release:	2
+Version:	1.0.3
+Release:	1
 License:	MIT
 Group:		X11/Development/Tools
 Source0:	http://xorg.freedesktop.org/releases/individual/util/gccmakedep-%{version}.tar.bz2
-# Source0-md5:	b533c0771dbbaf9b041ff35bb941d3a2
+# Source0-md5:	683847bee13c78a005705824a7c6f225
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
-BuildRequires:	cpp
-BuildRequires:	xorg-util-util-macros >= 0.99.2
+BuildRequires:	xorg-util-util-macros >= 1.8
 Requires:	gcc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -50,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/gccmakedep
-%{_mandir}/man1/gccmakedep.1x*
+%{_mandir}/man1/gccmakedep.1*
